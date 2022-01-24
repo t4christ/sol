@@ -21,6 +21,14 @@
   scroll-behavior: smooth;
 }
 
+/* .card {
+  transform: translateX(70vw);
+}
+
+.show {
+  transform: translateX(0);
+} */
+
 body {
   overflow-x: hidden;
 }
@@ -489,7 +497,7 @@ p {
   padding-left: 2rem;
 }
 
-.ministries h4  {
+.ministries h4 {
   font-weight: 500;
   color: rgb(78, 76, 76);
   text-transform: uppercase;

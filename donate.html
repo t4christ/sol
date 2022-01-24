@@ -1,21 +1,20 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/mq-sol.css">
-    <link rel="stylesheet" href="../css/all.min.css">
-    <link rel="stylesheet" href="../css/mission-fields.css">
+    <title>Donate</title>
 
-    <title>Mission-fields</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/mq-sol.css">
+    <link rel="stylesheet" href="../css/donate.css">
+
 </head>
 <body>
-    <!-- The nav section begins here -->
-    <nav class="navi"> 
+     <!-- The nav section begins here -->
+     <nav class="navi"> 
         <div class="container">
             <div class="logo">
                 <h3 class="sol">SOL <span>.</span></h3>
@@ -38,52 +37,35 @@
     </nav>
     <!-- The nav section ends here -->
 
-   <!-- The banner begins here -->
-    <section class="mission-fields-banner">
-        <div class="text-content">
-            <h3>Welcome to the SOL Misson Fields</h3>
-            <p>Enjoy our content as you travel down the aisle.</p>
+    <!-- the banner starts from here -->
+    <div class="donate-banner">
+        <div class="donate-text-content">
+            <h3>Welcome to SOL Donation center</h3>
+            <p>We are most glad that you have decided to support our mission work</p>
         </div>
-        <div class="visual-content">
-            <div class="round-ball"></div>
-        </div>
-    </section>
-    <!-- The banner ends here -->
+        <div class="donate-container">
+            <form accept="#" method="#">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="number" name="number" placeholder="Phone number" required>
 
-    <!-- The search by location begins here -->
-    <section class="where-to-go">
-        <h2>Where would you like to visit?</h2>
-        <div class="thumbnail">
-            <a href="owudekudu.html"><img src="../img/trustee4.jpeg" alt=""><span>Owudekudu</span></a>
-            <a href="akogun.html"><img src="../img/trustee3.jpeg" alt=""><span>Akogun</span></a>
-            <a href="ishoko.html"><img src="../img/trustee5.jpeg" alt=""><span>Ishoko</span></a>
-            <a href="eriki-nla.html"><img src="../img/trustee7.jpeg" alt=""><span>Eriki-nla</span></a>
-            <a href="oyegunle.html"><img src="../img/trustee2.jpeg" alt=""><span>Oyegunle</span></a>
+                    <input list="villages" name="village" placeholder="Village name" required>
+                            <datalist id="villages">
+                                <option value="Owudekudu">
+                                <option value="Ishoko">
+                                <option value="Eriki-nla">
+                                <option value="Akogun">
+                                <option value="Oyegunle">
+                            </datalist>
+    
+                <input type="text" name="description" placeholder="description" >
+                <input type="number" name="amount" placeholder="Amount" required> 
+                <input type="submit" name="donate" value="Donate" > 
+            </form>
         </div>
+    </div>
+    <!-- the banner ends here -->
 
-        <div class="categories">
-            <h3>You can also navigate using our category</h3>
-            <div class="category">
-                <a class="ed-missions" href="#educational-missions">Educational Missions</a>
-                <div class="edm-sub">
-                    <a class="ed-sub" href="owudekudu.html">Owudekudu</a>
-                    <a class="ed-sub" href="ishoko.html">Ishoko</a>
-                </div>
-                <a class="no-child" href="#sol-outreaches">SOL Outreaches</a>
-                <a class="no-child" href="#SOL-Conferences">SOL Conferences</a>
-                <a class="no-child" href="#partners-in-action">Partners in Action</a>
-                <a class="mission-tc" href="#missions-training-center">Missions Training Center</a>
-                <div class="sub">
-                    <a class="mtc-sub" href="#missions-training-center-professional">Professionals</a>
-                    <a class="mtc-sub" href="#missions-training-center-tertiary">Tertiary</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- the search by location ends here -->
-
-<!-- The footer begins here -->
-    <footer class="foot">
+    <footer class="foot card">
         <div class="mission-fields">
             <h3>Mission Fields</h3>
             <span></span>
@@ -124,10 +106,8 @@
             <i>&copy; Copyright 2022  </i>
         </div>
     </footer>
-<!-- the footer ends here -->
 
     <script src="../js/main.js"></script>
-    <script src="../js/mission-fields.js"></script>
     <script src="../js/all.js"></script>
 </body>
 </html>

@@ -180,6 +180,17 @@
 }
 
 @media screen and (max-width: 740px) {
+
+  .donate-container{
+    width: 100% !important;
+    top: 80% !important;
+  
+  }
+
+  .donate-container form{
+    width: 100% !important;
+  }
+
   .modal {
     display: flex;
     flex-flow: column;
