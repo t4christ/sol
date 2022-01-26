@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donate</title>
-
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/all.min.css">
-    <link rel="stylesheet" href="../css/mq-sol.css">
-    <link rel="stylesheet" href="../css/donate.css">
-
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/mq-sol.css">
+    <link rel="stylesheet" href="css/sol-blog.css">
+    <link rel="stylesheet" href="css/sol-blog-view.css">
+    <title>SOL-Blog-View</title>
 </head>
 <body>
-     <!-- The nav section begins here -->
-     <nav class="navi"> 
+
+    <!-- The nav section begins here -->
+    <nav class="navi"> 
         <div class="container">
             <div class="logo">
                 <h3 class="sol">SOL <span>.</span></h3>
@@ -25,11 +25,11 @@
                     <ul class="nav-list">
                         <li><a class="lnk" href="index.html">Home</a></li>
                         <li><a class="lnk" href="mission-fields.html">Mission Fields</a></li>
-                        <li><a class="lnk" href="index.html#board">Boards</a></li>
+                        <li><a class="lnk" href="#board">Boards</a></li>
                         <li><a class="lnk" href="sol-blog.html">Blog</a></li>
-                        <li><a class="lnk" href="about.html">About us</a></li>
+                        <li><a class="lnk" href="#about">About us</a></li>
                         <li><a class="lnk" href="donate.html">Donate</a></li>
-                        <li><a class="lnk" href="index.html#contact">Contact</a></li>
+                        <li><a class="lnk" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,34 +37,46 @@
     </nav>
     <!-- The nav section ends here -->
 
-    <!-- the banner starts from here -->
-    <div class="donate-banner">
-        <div class="donate-text-content">
-            <h3>Welcome to SOL Donation center</h3>
-            <p>We are most glad that you have decided to support our mission work</p>
-        </div>
-        <div class="donate-container">
-            <form accept="#" method="#">
-                <input type="email" name="email" placeholder="Email" required>
-                <input type="number" name="number" placeholder="Phone number" required>
 
-                    <input list="villages" name="village" placeholder="Village name" required>
-                            <datalist id="villages">
-                                <option value="Owudekudu">
-                                <option value="Ishoko">
-                                <option value="Eriki-nla">
-                                <option value="Akogun">
-                                <option value="Oyegunle">
-                            </datalist>
-    
-                <input type="text" name="description" placeholder="description" >
-                <input type="number" name="amount" placeholder="Amount" required> 
-                <input type="submit" name="donate" value="Donate" > 
-            </form>
-        </div>
+
+    <!-- This is the banner section -->
+    <div class="sol-banner">
+        <section class="blog-banner container ">
+            <h3 class="hhz">SOL BLOG</h2>
+            <p  class="para">Welcome to Springs of Life Evangelistic Ministry</p>
+        </section>
     </div>
-    <!-- the banner ends here -->
+    <!-- The banner ends here -->
 
+
+
+    <!-- The Views template begins here -->
+    <div class="views-news-card">
+        <img src="" alt="">
+        <div class="views-title"> <h3>Prayer anchor</h3></div>
+        <div class="views-detail"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, necessitatibus. Accusantium iste reprehenderit repudiandae mollitia quibusdam porro beatae illo consectetur?</p></div>
+        <a href="sol-blog.html">Finish Prayer</a>
+    </div>
+    <!-- The Views template begins here -->
+
+
+
+
+     <!-- The Little Side bar begins here -->
+    <aside>
+        <div class="nav">
+            <a href="#face" class="social-media-links"><i class="fab fa-facebook-square fa-1x"></i></a>
+            <a href="#tweet" class="social-media-links"><i class="fab fa-twitter-square fa-1x"></i></a>
+            <a href="#link" class="social-media-links"><i class="fab fa-linkedin fa-1x"></i></a>
+            <a href="#insta" class="social-media-links"><i class="fab fa-instagram fa-1x"></i></a>
+            <!-- <a id="login" href="#login" class="social-media-links"><i class="fas fa-sign-in-alt"></i></a> -->
+        </div>
+    </aside>
+     <!-- The Little Side bar Ends here -->
+
+
+
+    <!-- The footer begins here -->
     <footer class="foot card">
         <div class="mission-fields">
             <h3>Mission Fields</h3>
@@ -106,8 +118,10 @@
             <i>&copy; Copyright 2022  </i>
         </div>
     </footer>
+    <!-- The footer ends here -->
 
-    <script src="../js/main.js"></script>
-    <script src="../js/all.js"></script>
+    <script src="js/sol-blog-view.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/all.js"></script>
 </body>
 </html>

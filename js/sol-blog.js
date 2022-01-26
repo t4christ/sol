@@ -1,5 +1,3 @@
-
-
 const[showName,
     showComment,
      showDate,
@@ -18,6 +16,9 @@ const[showName,
 
 commentSubmit.addEventListener('click', (e)=>{
    e.preventDefault()
+   const currentTime = new Date()
+   showDate.textContent = currentTime.toLocaleDateString()
    showName.textContent = commmentName.value
    showComment.textContent = comment.value
+   console.log(showDate.textContent)
 })

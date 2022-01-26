@@ -203,7 +203,8 @@ header {
 }
 
 header span {
-  color: var(--teal);
+  color: rgb(2, 138, 250);
+  font-weight: 600;
 }
 
 .head {
@@ -217,6 +218,11 @@ header span {
   flex-flow: column;
   justify-content: center;
   animation: var(--animation-right);
+}
+
+.head .text p.para {
+  width: 100%;
+  text-align: center;
 }
 /* The Header Styles end */
 
@@ -250,9 +256,12 @@ header span {
 }
 
 .content {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   gap: 2rem;
+  height: 100%;
+  justify-content: center;
 }
 
 .content h5,
@@ -261,20 +270,34 @@ p {
   line-height: 2rem;
 }
 
+.content p {
+  text-align: center;
+}
+
 .content h5 {
   font-size: 1.5rem;
   font-weight: 400;
-  margin-bottom: -2rem;
+}
+
+.scriptures,
+.mission,
+.vision {
+  border: 3pxx solid blue;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: max-content;
 }
 
 .content a.lnk {
   color: rgb(100, 98, 98);
   border: 0.2rem solid rgb(100, 99, 99);
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  height: 4rem;
+  height: 3rem;
 }
 
 .about-dtls {
@@ -394,7 +417,7 @@ p {
 }
 
 .contact form input[type="submit"] {
-  width: 30%;
+  width: max-content;
   background: var(--teal);
   color: var(--light);
 }
