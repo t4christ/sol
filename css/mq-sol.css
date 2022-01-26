@@ -260,6 +260,15 @@
   }
 }
 
+@media (max-width: 580px) {
+  .head .text p.para {
+    font-size: 1.1rem;
+  }
+  .head .text h3.hhz {
+    font-size: 1.3rem;
+  }
+}
+
 @media (max-width: 540px) {
   .about-us-content {
     grid-template-columns: 1fr;
