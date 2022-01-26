@@ -21,10 +21,22 @@
 
   .foot {
     grid-template-columns: 1fr;
+    justify-self: flex-start;
+    gap: 2rem;
   }
 
   .copy {
     align-items: center;
+    grid-area: 4/ 1;
+    width: 50%;
+  }
+
+  .copy {
+    width: 100%;
+    display: grid;
+    margin-top: 4rem;
+    /* border: 4px solid white; */
+    justify-items: center;
   }
 
   .bar {
